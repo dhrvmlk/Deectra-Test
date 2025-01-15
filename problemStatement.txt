@@ -1,0 +1,31 @@
+Problem Statement:
+You're building a simple to-do list application. For this assignment, focus on a specific feature: "Mark as Complete".
+Requirements:
+Functionality:
+Given an array of to-do items (each with an id and a completed boolean flag), create a function that takes the id of a to-do item as input.
+The function should:
+Find the to-do item in the array based on the provided ID.
+Toggle the completed flag of that item (from false to true, or vice versa).
+Return the updated array of to-do items.
+Example:
+JavaScript
+const todos = [
+  { id: 1, text: 'Task 1', completed: false },
+  { id: 2, text: 'Task 2', completed: true },
+  { id: 3, text: 'Task 3', completed: false }
+];
+
+Function to toggle the 'completed' status of a to-do item
+function toggleTodoCompletion(todos, id) {
+Your implementation here
+}
+
+const updatedTodos = toggleTodoCompletion(todos, 1); 
+Expected output: 
+[
+  { id: 1, text: 'Task 1', completed: true }, 
+  { id: 2, text: 'Task 2', completed: true }, 
+  { id: 3, text: 'Task 3', completed: false }
+]
+Deliverables:
+The implementation of the toggleTodoCompletion function in MERN Stack.
