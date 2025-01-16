@@ -1,5 +1,3 @@
-const toggleTodoItem = require("../utils/toggleTodoItem");
-
 exports.helloWorld = (req, res) => {
   res.status(200).send("Hello World!");
 };
