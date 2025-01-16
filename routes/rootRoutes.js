@@ -12,6 +12,6 @@ router.post("/toggle-todo-item", rootController.toggleToDoItem);
 
 // The ToDo Array is sent in the request body as 'todo_arr'
 // And the Id of the ToDo Item is sent as 'todo_id'.
-// There's a file named 'doc.txt' at the root of this project, plz refer to that for the example
+// Plz refer to README.md for for an example.
 
 module.exports = router;
